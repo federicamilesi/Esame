@@ -43,7 +43,7 @@ h3 {
     background-size: auto; 
     display: flex;
     justify-content: center;
-    padding-top: 230px;
+    padding-top: 170px;
 }
 .cartelle{
     position:absolute;
@@ -53,9 +53,9 @@ h3 {
     align-items: center;
 }  
 img {
-    width: 90px;
+    width: 80px;
     margin: 10px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
 }
 p {
     color: white;
