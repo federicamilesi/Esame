@@ -14,23 +14,27 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    align-items: center;    
+       
     }
 
 h1 {
-    font-size: 200px;
     margin: 0px;
     line-height: 140px;
-        }
+    font-size: clamp(200px, 15vw, 600px)
+    }
+
 h2{
     font-size: 30px;
     width: 620px;
+    width: 343px;
+    height: 60px;
  }
 h3 {
     font-size: 13px;
     width: 620px;
+    width: 343px;
+    height: 220px;
  }
-
 
 #pc{
     height: 100vh;
@@ -39,7 +43,6 @@ h3 {
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
-    background-size: auto; 
     display: flex;
     justify-content: center;
     padding-top: 170px;
@@ -50,6 +53,7 @@ h3 {
     flex-direction: column;
     justify-content: center; 
     align-items: center;
+    cursor: pointer;
 }  
 img {
     width: 80px;
@@ -76,4 +80,21 @@ p {
   .winbox .wb-body {
     border-radius: 5px; 
   }
+  @media (max-width: 768px) {
+    .cartelle img {
+      width: 50px; 
+    }
+  }
   
+  @media (max-width: 576px) {
+    .cartelle img {
+      width: 30px; 
+    }
+  }
+
+  @media (max-width: 2000px) {
+    #pc {
+      background-size: contain; 
+      min-height: 300px; 
+    }
+  }
