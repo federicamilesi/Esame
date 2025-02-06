@@ -45,15 +45,21 @@ h3 {
     background-position: center;
     display: flex;
     justify-content: center;
-    padding-top: 170px;
+    align-items: center;
+    padding-bottom: 150px;
 }
 .cartelle{
+    width: 30vw;
     position:absolute;
-    display:flex;
-    flex-direction: column;
-    justify-content: center; 
     align-items: center;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+
+.container {
+  width: 30vw;
+}
 }  
 img {
     width: 80px;
@@ -62,7 +68,7 @@ img {
 }
 p {
     color: white;
-    font-size: 15px;
+    font-size: 75%;
     font-family: oswald;
     margin-top: 0px;
     height: 20px;
@@ -80,21 +86,47 @@ p {
   .winbox .wb-body {
     border-radius: 5px; 
   }
-  @media (max-width: 768px) {
-    .cartelle img {
-      width: 50px; 
-    }
-  }
   
-  @media (max-width: 576px) {
-    .cartelle img {
-      width: 30px; 
-    }
+@media (max-width: 1080px) {
+  .cartelle img {
+    width: 8vw; 
   }
+
+  #pc {
+    background-size: contain; 
+    min-width: 50%; 
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .cartelle img {
+    width: 7vw; 
+  }
+
+  #pc {
+    background-size: contain; 
+    min-width: 40%; 
+  }
+}
+
+@media (max-width: 2000px) {
+  .cartelle img {
+    width: 5vw; 
+  }
+
+  #pc {
+    background-size: contain; 
+    min-width: 30%; 
+  }
+}
+
 
   @media (max-width: 2000px) {
     #pc {
       background-size: contain; 
-      min-height: 300px; 
+      min-width: 300px; 
     }
   }
+
+ 
