@@ -1,132 +1,75 @@
-body {
-    margin: 0;
-    padding: 100px;
+body{
     background-color: black;
 }
-main {
+
+.row {
     display: flex;
-}
-#txt {
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    width: 50vw;
-    color: white; 
+}
+
+h1, h2, h3 {
     font-family: 'Jersey 10', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-       
-    }
+    align-items: center;
+}
 
 h1 {
-    margin: 0px;
-    line-height: 140px;
-    font-size: clamp(200px, 15vw, 600px)
+    font-size: 700%;
     }
 
 h2{
     font-size: 30px;
-    width: 620px;
-    width: 343px;
-    height: 60px;
  }
+
 h3 {
     font-size: 13px;
-    width: 620px;
-    width: 343px;
-    height: 220px;
+
  }
 
-#pc{
+ #pc {
+    background-image: url(img/pc_bg3.jpg);
     height: 100vh;
-    width: 50vw;
-    background-image: url(img/pc_bg.jpg);
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 150px;
-}
-.cartelle{
-    width: 30vw;
-    position:absolute;
-    align-items: center;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px; 
+    background-size: cover; 
+ }
 
-.container {
-  width: 30vw;
-}
-}  
-img {
-    width: 80px;
-    margin: 10px;
-    margin-bottom: 10px;
-}
-p {
-    color: white;
-    font-size: 75%;
-    font-family: oswald;
-    margin-top: 0px;
-    height: 20px;
-}
-
-.wb-title {
-    font-size: 13px;
-    color: "#000000";
-}
-
-.winbox {
-    border-radius: 5px;  
-  }
-
-  .winbox .wb-body {
-    border-radius: 5px; 
-  }
-  
-@media (max-width: 1080px) {
-  .cartelle img {
-    width: 8vw; 
-  }
-
-  #pc {
-    background-size: contain; 
-    min-width: 50%; 
-  }
-}
-
-
-@media (max-width: 1000px) {
-  .cartelle img {
-    width: 7vw; 
-  }
-
-  #pc {
-    background-size: contain; 
-    min-width: 40%; 
-  }
-}
-
-@media (max-width: 2000px) {
-  .cartelle img {
-    width: 5vw; 
-  }
-
-  #pc {
-    background-size: contain; 
-    min-width: 30%; 
-  }
-}
-
-
-  @media (max-width: 2000px) {
-    #pc {
-      background-size: contain; 
-      min-width: 300px; 
-    }
-  }
-
+ .grid .row{
+    height: 140px !important;
+ }
  
+ .grid {
+    width: 100%;
+    height: 100vh;;
+ }
+
+ .grid .col {
+    width: 50px;;
+ }
+
+
+img {
+    width: 40%;
+ }
+
+ p  {
+        color: white;
+        font-size: clamp (1rem, 3vw, 2rem);
+        font-family: oswald;
+        margin-top: 0px;
+        height: 20px;
+        text-align: left;
+    }
+
+.grid .row {
+    height: 16vh !important;
+    margin-top: 10px
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
