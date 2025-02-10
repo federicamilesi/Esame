@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
   buttons.forEach(button => {
       button.addEventListener('click', () => {
           const url = button.getAttribute('data-url');
-          const width = 600;
-          const height = 400;
+          const width = Math.floor(window.innerWidth * 0.6); 
+          const height = Math.floor(window.innerHeight * 0.5);
           const x = Math.floor(Math.random () * (window.innerWidth - width));
           const y = Math.floor(Math. random () * (window.innerHeight - height));
           new WinBox({
@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
               y: y,
               title: "I miei Progetti",
               url: url, 
-              width: "600px",
-              height: "400px",
+              width: width,
+              height: height,
               border: "0.3em",
               background: "#202020"
           });
