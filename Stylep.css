@@ -14,12 +14,12 @@ body {
     align-items: center;  
 }
 
-.preview1 { background-image: url(img/bsfc.jpg); }
-.preview2 { background-image: url(img/Logodesign.jpg); }
-.preview3 { background-image: url(img/Report.jpg); }
-.preview4 { background-image: url(img/Casainfestata.jpg); }
-.preview5 { background-image: url(img/foto.jpg); }  
-.preview6 { background-image: url(img/mdb.jpg); }
+.preview1 { background-image: url(img/bsfc.png); }
+.preview2 { background-image: url(img/Logodesign.png); }
+.preview3 { background-image: url(img/Report.png); }
+.preview4 { background-image: url(img/Casainfestata.png); }
+.preview5 { background-image: url(img/foto.png); }  
+.preview6 { background-image: url(img/mdb.png); }
 
 h1 {
     font-family: 'Jersey 10', sans-serif;
@@ -28,13 +28,12 @@ h1 {
     text-align: center;
 }
 .section1 {
-margin: 0px 30px;
 padding-top: 50px;
 }
 
 h2 {
 font-family: oswald;
-font-size: clamp(70px, 6vw, 700px)
+font-size: clamp(40px, 5vw, 10px)
 }
 
 hr {
@@ -79,21 +78,12 @@ height: auto;
     padding: 0px !important;
     margin-left: 0px; 
 }
-.box {
-    background-color: white;
-    color: black;
-    padding: 20px;
-    border-radius: 40px;
-    min-width: 70px;
-    text-align: center;
-    font-size: 18px;
-    font-family: Oswald;
-}
+
 .background {
     max-height: 1500px;
     min-height: 800px;
     color: white;
-    padding: 0px;
+    padding: 0px 10px;
 }
 
 #immaginip{
@@ -132,10 +122,6 @@ width: 40vw;
 #scrollTopBtn {
     cursor: pointer;
     margin-top: 30px;
-}
-
-.footer {
-    margin: 30px;
 }
 
 .su {
