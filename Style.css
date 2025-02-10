@@ -34,10 +34,6 @@ h3 {
     background-position: center;
     background-size: cover; 
  }
-
- .grid .row{
-    height: 140px !important;
- }
  
  .grid {
     width: 100%;
